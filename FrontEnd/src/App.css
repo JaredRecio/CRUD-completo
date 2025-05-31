@@ -1,0 +1,133 @@
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2e6ff;
+  margin: 0;
+  padding: 20px;
+  color: #2a003f;
+}
+
+h1 {
+  text-align: center;
+  color: #6a0dad;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(106, 13, 173, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input {
+  padding: 12px;
+  border: 1px solid #d3bce3;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f3fd;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #9b59b6;
+  background-color: #f1e7fb;
+}
+
+form button {
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #9b59b6;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #8e44ad;
+}
+
+form button[type="button"] {
+  background-color: #bdc3c7;
+  color: #2a003f;
+}
+
+form button[type="button"]:hover {
+  background-color: #aab2b5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(106, 13, 173, 0.2);
+}
+
+thead {
+  background-color: #6a0dad;
+  color: white;
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e1cbee;
+}
+
+tr:hover {
+  background-color: #f5ebfa;
+}
+
+td center {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+td button {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+td button:hover {
+  opacity: 0.9;
+}
+
+td button:nth-child(1) {
+  background-color: #af7ac5;
+  color: white;
+}
+
+td button:nth-child(2) {
+  background-color: #d81b60;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f2e6ff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+}
