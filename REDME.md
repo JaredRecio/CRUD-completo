@@ -284,5 +284,3 @@ El código completo está disponible en:
 4. Abre el navegador en [http://localhost:5173](http://localhost:5173) (o el puerto que indique Vite).
 
 ---
-
-> **Recuerda reemplazar las rutas de las imágenes y el enlace del repositorio por los tuyos propios.**
