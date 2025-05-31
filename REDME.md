@@ -266,7 +266,7 @@ export default App;
 ## 4. Repositorio
 
 El código completo está disponible en:  
-[https://github.com/usuario/proyecto-crud-clientes](https://github.com/JaredRecio/CRUD-completo.git)
+[https://github.com/JaredRecio/CRUD-completo.git](https://github.com/JaredRecio/CRUD-completo.git)
 
 ---
 
